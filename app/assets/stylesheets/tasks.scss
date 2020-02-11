@@ -1,0 +1,65 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-color: #ededed;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(142, 27, 27);
+  &:hover {
+    color: red;
+  }
+}
+
+.container {
+  width: 50%;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 25px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(5,5,5,0.1)
+}
+
+.edit_task {
+  padding-top: 15px;
+  text-align: justify;
+  display: inline-block;
+}
+
+.new_task {
+  padding-top: 15px;
+  text-align: justify;
+  display: inline-block;
+}
+
+.inupt {
+  padding: 10px 0;
+}
+
+.btn {
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgb(96, 94, 94);
+  padding: 10px 0;
+  border-radius: 4px;
+  &:hover {
+    background-color: white;
+    border : 1px solid;
+  }
+}
+
+.btn a {
+    color: white;
+    width: 100%;
+    &:hover {
+      color: rgb(96, 94, 94);
+    }
+}
+
+
